@@ -7,12 +7,10 @@ Very simple mathematical programming language
 - 
 
 ## Instructions
-All instructions except `print` and `input` have 2 parameters, they have 1.
+All instructions except `print` have 2 parameters, it has 1.
 - > init x 1
   <br>
-  > init y 0
-  <br>
-  > Initialises a new variable named x with the value 1
+  > Initialises a new variable with the name x and the value 1
 
 - > add x 2
   <br>
@@ -30,14 +28,14 @@ All instructions except `print` and `input` have 2 parameters, they have 1.
   <br>
   > Divides the variable x by 1 (Division by 0 will throw an error)
   
-- > sqrt x y
+- > sqrt x
   <br>
-  > Calculates the square root of x and stores it in the variable y
+  > Calculates the square root of x and stores it in x
 
 - > print x
   <br>
   > Prints the variable x to the console
 
-- > input y
+- > exit
   <br>
-  > Asks the user to input a number to store in the variable y
+  > Exits the program

@@ -1,0 +1,5 @@
+init x 10
+add x a
+print x
+add x 100
+print x
