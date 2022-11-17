@@ -3,13 +3,13 @@ Very simple mathematical programming language
 
 # Usage
 - Download the latest build from the `RELEASES` page
-- Run the build with a filename as argument: `java -jar BananaScript.jar example.bscript`
+- Run the build with a filename as an argument: `java -jar BananaScript.jar example.bscript`
 
 ## Instructions
 All instructions except `print` have 2 parameters, it has 1.
 - > init x 1
 
-  Initialises a new variable with the name x and the value 1
+  Initializes a new variable with the name x and the value 1
 
 - > add x 2
 
